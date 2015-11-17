@@ -274,7 +274,7 @@ var methods = {
 			return methods.init.apply( this, arguments );
 		} else {
 			// если ничего не получилось
-			$.error( 'Метод "' +  method + '" не найден в плагине jQuery.simpleSlider' );
+			$.error( 'Метод "' +  method + '" не найден в плагине jQuery.yaSlider' );
 		}
 	};
 })(jQuery);
